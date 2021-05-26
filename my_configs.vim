@@ -1,6 +1,8 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Remove warning about deprecated snipMate
+let g:snipMate = { 'snippet_version' : 1 }
 
 " Show line numbers
 set number
